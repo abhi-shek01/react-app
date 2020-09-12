@@ -70,7 +70,7 @@ class App extends Component {
     const { users, user, repos, loading } = this.state;
 
     return (
-      <Router>
+      <Router basename='https://abhi-shek01.github.io/react-app'>
         <div className='App'>
           <Navbar />
           <div className='container'>
